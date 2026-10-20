@@ -1,0 +1,13 @@
+# Problem 1: Python If-Else
+# HackerRank Link: https://www.hackerrank.com/challenges/py-if-else/problem
+
+n = int(input().strip())
+
+if n % 2 == 1:
+    print("Weird")
+elif 2 <= n <= 5:
+    print("Not Weird")
+elif 6 <= n <= 20:
+    print("Weird")
+else:
+    print("Not Weird")
